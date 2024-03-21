@@ -1,0 +1,507 @@
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+  
+    min-height: 100vh;
+    background-size: cover;
+    background-image:url(../images/Background.png);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+
+    header{
+        position: fixed;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 99;
+        background-image: url(../images/Background.png);
+    background-size: cover;
+    }
+
+    .logo{
+        width: 30%;
+    }
+    .navigation a {
+        position: relative;
+        font-size: 1em;
+        color:black;
+        text-decoration:none;
+        font-weight:400 ;
+        margin-left: 15px;
+    
+    }
+    .searchicon{
+        display: none;
+    }
+    .sign_in{
+        display: none;
+    }
+
+
+
+    .get_started {
+        display: none;
+    }
+
+    .its_free {
+        color: darkgrey;
+    }   
+
+    .div1 {
+        height: 200px; 
+        margin-top: 30px;
+        padding: 50px;
+    text-align: center;
+    }
+
+    .title2{
+        font-size: 40px;
+        font-weight:100px;
+        font-family: Arial black;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .content1{
+        font-size: 15px;
+        color:  rgba(0, 0, 0, 0.801);
+    }
+
+    .get_started2 {
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom:20px ;
+        color: white;
+        background:black;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 500;
+        border: none;
+    
+
+    }
+
+    .div2{
+        position: relative;
+        margin: 10px;
+        top: 250px;
+    }
+    .snip1 {
+        display: none;
+    }
+    .snip2 {
+        display: block;
+    
+        margin: 10px;
+        height: 100%;
+        width: 94%;
+    
+
+    }
+
+
+    .div3 {
+    background-color: white;
+    position: relative;
+    top: 240px;
+    padding: 20px;
+    height: 280px;
+
+
+
+
+    }
+    .custom {
+        position: relative;
+        width: 90%;
+        height: 100%;
+        margin: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+    }
+
+
+
+    .div3 h3 {
+        font-size: 1.6em;
+        font-family: arial black;
+        padding-bottom:10px ;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .div3 p{
+    
+        height: 100%;
+        width: 100%;
+        font-family: arial;
+        color:  rgba(0, 0, 0, 0.801);
+        display: flex;
+    }
+
+    .get_started3{
+        width: 200px;
+        height: 50px;
+        position: relative ;
+        color: white;
+        background:black;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 500;
+        border: none;
+        top: -125px;
+    }
+
+
+    footer{
+        padding: 10px ;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        font-size: 0.7em;
+        top: 650px;
+    }
+        
+    footer a{
+
+        justify-content: space-between;
+        text-decoration: none;
+    }
+
+
+
+
+
+@media only screen and (min-width:768px ) and (max-width:999px){
+
+        header {
+            height: 100px;
+        }
+   
+       .searchicon{
+        display: block;
+        position: relative;
+        left: -140px;
+       bottom: -50px;
+       }
+
+       .menu {
+        display: none;
+       }
+
+       .sign_in{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: -90px;
+
+       }
+
+       .logo{
+        width: 20%;
+       }
+   
+       .get_started {
+        width: 200px;
+        height: 50px;
+        color: white;
+        background:black;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 500;
+        margin-left: 0px;
+        margin-right: -10px;
+        border: none;
+        display: block;
+        position: relative;
+        top: -20px;
+    }
+
+         .div1 {
+        margin-top: 100px;
+         }
+        footer{
+            padding: 10px ;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            font-size: 1.2em;
+        
+             }
+        .div3{
+            height: 600px;
+        }
+
+        .get_started3{
+            top:-500px;
+        }
+       footer {
+        top: 900px;
+       }
+}
+
+
+@media only screen and (min-width:1000px) {
+   
+  
+    
+     header{
+         position: fixed;
+         top: 0;
+         left: 0px;
+         width: 100%;
+         height: 10%;
+         padding: 20px 100px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         z-index: 99;
+         background-image: url(../images/Background.png);
+        background-size: cover;
+    
+    
+     }
+    
+    
+        .navigation a {
+            position: relative;
+            font-size: 1em;
+            color:black;
+            text-decoration:none;
+            font-weight:400px;
+            margin-left: 15px;
+            transition-duration: 0.3s;
+        }
+        .navigation a:hover{
+            position: relative;
+            font-size: 1em;
+            color:white;
+            text-decoration:none;
+            font-weight:400 ;
+            margin-left: 15px;
+        }
+    
+        .searchicon{
+            display: block;
+            top: 50px;
+            left: -130px;
+          
+        }
+
+        .sign_in {
+            display: block;
+            top: 30px;
+            left: -85px;
+        }
+        .menu {
+            display: none;
+        }
+        .logo {
+            width: 7%;
+        }
+    
+        .get_started {
+            display: block;
+            width: 200px;
+            height: 50px;
+            color: white;
+            background:black;
+            border-radius: 4px;
+            outline: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            margin-left: 0px;
+            margin-right: -10px;
+            border: none;
+            transition-duration: 0.3s;
+            position: relative;
+            top: -20px;
+        }
+    
+        .get_started:hover {
+            background-color: white;
+            color: black;
+        }
+    
+        .its_free {
+            color: darkgrey;
+        }   
+    
+    
+    
+    .div1 {
+        height: 200px;
+        margin-top: 30px;
+        padding: 50px;
+       text-align: center;
+    }
+    
+    
+    .title2{
+        font-size: 50px;
+        font-weight:100px;
+        font-family: Arial black;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .content1{
+        font-size: 20px;
+        color:  rgba(0, 0, 0, 0.801);
+    }
+    
+    .get_started2 {
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom:20px ;
+        color: white;
+        background:black;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 500;
+        border: none;
+        transition-duration: 0.3s;
+    
+    }
+    .get_started2:hover {
+        background-color: white;
+        color: black;
+    }
+    
+        .div2 {
+            height: 400px;
+            margin-left: 100px;
+            margin-right: 100px;
+            border-radius: 10px;
+            margin-top: 200px;
+        }
+
+            .snip2{
+                display: none;
+            }
+
+            .snip1{
+                display: block;
+                width: 100%;
+                height: 120%;
+                top: -150px;
+                position: relative;
+            }
+        
+    
+        .div3 {
+            height: 500px;
+            background-color: white;
+            padding: 100px;
+           
+            top: 170px;
+
+    
+        }
+        .div3 h3 {
+            font-size: 1.6em;
+            font-family: arial black;
+            position: relative;
+            top: -500px;
+            width: 500px;
+            
+        }
+        .div3 p{
+           
+            height: 100px;
+            width: 470px;
+            padding-top: 20px;
+            font-family: arial;
+            color:  rgba(0, 0, 0, 0.801);
+            position: relative;
+            top: -510px;
+        }
+    
+        .custom {
+            width: 500px;
+            height: 400px;
+            position: relative;
+            left: 1150px;
+            top: -80px;
+        
+        }
+    
+    
+        .get_started3{
+            width: 200px;
+            height: 50px;
+            position: relative ;
+            color: white;
+            background:black;
+            top: -200px;
+            border-radius: 4px;
+            outline: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            border: none;
+            transition-duration: 0.3s;
+            position: relative;
+            top: -510px;
+        }    
+    
+    .get_started3:hover{
+        background-color: rgb(119, 119, 119);
+        color: black;  
+    }
+    
+    footer{
+        padding: 20px 100px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        top: 400px;
+    
+    }
+    
+    
+    
+    footer a{
+        font-size: 1.5em;
+        font-weight: 10px;
+        font-style: normal;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.801);
+        margin-left: 20px;
+        margin-right: 25px;
+    
+    }
+    footer a:hover{
+       text-decoration: underline;
+    }
+}
